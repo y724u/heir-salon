@@ -68,6 +68,10 @@ div#wrapper{
   margin: 0 auto;
 }
 
+.box-shadow{
+  box-shadow: 0 2px 7px rgba(83,78,61,0.3);
+}
+
 /* <ヘッダー用> */
 header{
   width: 960px;
@@ -142,7 +146,6 @@ div#mainimage{
   height: 290px;
   margin: 20px 0 20px 0;
   border:5px solid white;
-  box-shadow: 0 2px 7px rgba(83,78,61,0.3);
 }
 
 /* <レフト用> */
@@ -152,7 +155,6 @@ div#left{
   background-color: #ffffff;
   float: left;
   margin: 0 25px 0 0;
-  box-shadow: 0 2px 7px rgba(83,78,61,0.3);
   padding: 10px;
 }
 
@@ -185,17 +187,39 @@ div#left ul li span{
   margin-right: 15px;
 }
 
-
-
 /* <ライト用> */
 div#right{
   width: 360px;
   height: 198px;
-  background-color: greenyellow;
   float: left;
-  box-shadow: 0 2px 7px rgba(83,78,61,0.3);
 
 }
+
+div#right ul li{
+  line-height: 60px;
+  margin-bottom: 20px;
+}
+
+div#right ul li a{
+  width: 225px;
+  height: 60px;
+  display: block;
+  font-size: 17px;
+  font-weight: bold;
+  color: #734339;
+  text-decoration: none;
+  padding-left:140px;
+
+}
+
+
+div#right ul li a#contact{
+  background:url(images/contact.jpg);
+}
+
+div#right ul li a#blog{
+  background:url(images/blog.jpg);
+  }
 
 div.clear{
   clear: both;
@@ -205,6 +229,12 @@ div.clear{
 footer{
   width: 100%;
   height: 58px;
-  background-color: black;
+  background-color: #345c39;
   margin-top: 20px;
+}
+
+footer p{
+  text-align: center;
+  color: #ffffff;
+  line-height: 58px;
 }
