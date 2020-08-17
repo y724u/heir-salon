@@ -238,3 +238,19 @@ footer p{
   color: #ffffff;
   line-height: 58px;
 }
+
+
+
+/* <メニュー一覧> */
+h2#heading{
+  background: url(images/title.jpg);
+  width: 925px;
+  height: 70px;
+  border: solid 5px #ffffff;
+  margin-bottom: 20px;
+  font-size: 27px;
+  color: #2f5734;
+  line-height: 70px;
+  font-weight: bold;
+  padding-left: 23px;
+}
