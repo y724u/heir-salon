@@ -151,20 +151,45 @@ div#mainimage{
 /* <レフト用> */
 div#left{
   width: 555px;
-  height: 178px;
+  height: auto;
   background-color: #ffffff;
   float: left;
   margin: 0 25px 0 0;
   padding: 10px;
 }
 
-div#left h2{
+div#left h2,
+div#left h3{
   font-size: 17px;
   font-weight: bold;
   color: #734339;
   border-left:5px solid #ba3009;
   padding-left: 10px;
 }
+
+div#left dl{
+  margin-top: 11px;
+}
+
+div#left dl dt{
+  font-size: 15px;
+  font-weight: normal;
+  color: #734339;
+  margin-bottom: 12px;
+}
+
+div#left dl dd{
+  font-size: 13px;
+  font-weight: normal;
+  color: #927e7a;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  line-height: 20px;
+  
+}
+
+
+
 
 div#left ul{
   overflow: scroll;
@@ -201,7 +226,7 @@ div#right ul li{
 }
 
 div#right ul li a{
-  width: 225px;
+  width: 217px;
   height: 60px;
   display: block;
   font-size: 17px;
