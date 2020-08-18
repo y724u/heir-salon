@@ -304,3 +304,46 @@ td.form_titel{
 td.form_titel label{
   font-weight: bold;
 }
+
+td.form_contents input#form_name,
+td.form_contents input#form_tel {
+  width: 421px;
+  height: 22px;
+}
+
+td.form_contents{
+  font-size: 13px;
+  color: #a6a6a6;
+}
+
+td.form_contents input.form_time{
+  width: 47px;
+  height: 22px;
+  margin-right: 5px;
+  display: inline-block;
+}
+
+td.form_contents textarea{
+  width: 421px;
+  height: 83px;
+  border: #a6a6a6 1px solid;
+}
+
+p#submit{
+  text-align: right;
+}
+
+p#submit input{
+ background-color: #325a37;
+ border: none;
+ font-size: 18px;
+ color:white;
+ font-weight: bold;
+ width: 136px;
+ height: 40px;
+}
+
+p#submit input:hover{
+  cursor: pointer;
+  opacity: 0.8;
+}
