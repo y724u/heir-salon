@@ -167,6 +167,8 @@ div#left h3{
   padding-left: 10px;
 }
 
+
+
 div#left dl{
   margin-top: 11px;
 }
@@ -184,9 +186,9 @@ div#left dl dd{
   color: #927e7a;
   margin-left: 10px;
   margin-bottom: 20px;
-  line-height: 20px;
-  
+  line-height: 20px; 
 }
+
 
 
 
@@ -278,4 +280,27 @@ h2#heading{
   line-height: 70px;
   font-weight: bold;
   padding-left: 23px;
+}
+
+/* <コンタクトページ> */
+p#contact_text{
+  color: #927e7a;
+  font-size: 12px;
+  line-height: 18px;
+  background-color: #ffefea;
+  padding: 10px 10px 10px 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+td.form_titel{
+  width: 131px;
+  height: 32px;
+  font-size: 15px;
+  color: #734339;
+  vertical-align: top;
+}
+
+td.form_titel label{
+  font-weight: bold;
 }
